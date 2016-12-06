@@ -126,6 +126,8 @@
 							<useReleaseProfile>false</useReleaseProfile>
 							<releaseProfiles>release</releaseProfiles>
 							<goals>deploy nexus-staging:release</goals>
+							<remoteTagging>false</remoteTagging>
+							<suppressCommitBeforeTag>false</suppressCommitBeforeTag>
 						</configuration>
 					</plugin>
 					<plugin>
